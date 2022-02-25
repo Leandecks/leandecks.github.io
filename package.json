@@ -1,0 +1,23 @@
+{
+  "name": "leandecks",
+  "version": "0.1.2",
+  "description": "The Official Leandecks Website",
+  "main": "js/script.js",
+  "scripts": {
+    "test": "start index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\\\Users\\Samsung\\Documents\\leandecks\\projects\\leandecks\\leandecks-v2"
+  },
+  "keywords": [
+    "leandecks",
+    "leandecks-website",
+    "pico-css"
+  ],
+  "author": "leandecks",
+  "license": "MIT",
+  "devDependencies": {
+    "@picocss/pico": "^1.4.4"
+  }
+}

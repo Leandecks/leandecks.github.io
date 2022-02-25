@@ -1,0 +1,26 @@
+.hero {
+    background-image: url("../img/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    margin-bottom: 3rem;
+}
+
+nav li {
+    color: var(--contrast);
+}
+
+.logo {
+    font-family: 'Love Ya Like A Sister';
+    font-size: 20px;
+}
+
+header {
+    padding-bottom: 3rem;
+}
+
+header hgroup {
+    padding-bottom: 1rem;
+}
