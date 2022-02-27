@@ -1,7 +1,7 @@
 .hero {
     background-image: url("../img/mountains.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 25% 75%;
 }
 
 nav {
@@ -23,4 +23,8 @@ header {
 
 header hgroup {
     padding-bottom: 1rem;
+}
+
+header hgroup h2 {
+    color: #b5e1ff;
 }
