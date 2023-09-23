@@ -63,7 +63,7 @@
         <header class="container">
             <hgroup>
                 <h1>Leandecks</h1>
-                <h2>Hobby-coder, climber, big nerd</h2>
+                <h2>Hobby-developer, climber, big nerd</h2>
             </hgroup>
             <a href="#contact" role="button">Let's get in touch!</a>
         </header>
@@ -82,7 +82,7 @@
             </h2>
             <p>
                 Hey Guys! I'm Leandecks, a 15-yo guy from Italy/Germany.
-                I really like to code as a hobby in the Web Frontend and in Python. Check out <a href="#projects">my projs!</a>
+                I really like to code and program as a hobby in the Web Frontend and in Python. Check out <a href="#projects">my projs!</a>
                 I've also been doing bouldering (a category of sport climbing) for 5 years now.
                 I'm a big nerd as well who likes to learn languages (like swedish), solve hard sudokus and read. 
             <h2 id="projects">My Projects</h2>
@@ -98,22 +98,15 @@
                 </ul>
             </p>
             <div class="grid">
-                <div><img src="./img/projects/python.png" alt="My python scripts" id="one"></div>
-                <div><img src="./img/projects/am.png" alt="An old website for my uncle" id="two"></div>
-                <div><img src="./img/projects/leandecks.png" alt="My current website" id="three"></div>
+                <div><a href="https://github.com/Leandecks/python"><img src="./img/projects/python.png" alt="My python scripts" id="one"></a></div>
+                <div><a href="https://github.com/Leandecks/anima-minima"><img src="./img/projects/am.png" alt="An old website for my uncle" id="two"></a></div>
+                <div><a href="https://github.com/Leandecks/leandecks"><img src="./img/projects/leandecks.png" alt="My current website" id="three"></a></div>
             </div>
-            <div class="grid">
-                <div><img src="./img/projects/yeah.png" alt="An old website of mine" id="four"></div>
-                <div><img src="./img/projects/math.png" alt="A math quiz project" id="five"></div>
-                <div><img src="./img/projects/iva.png" alt="A very old calculator for italian taxes" id="six"></div>
+            <div class="grid" id="grid2">
+                <div><a href="https://github.com/Leandecks/yeahlg-2020"><img src="./img/projects/yeah.png" alt="An old website of mine" id="four"></a></div>
+                <div><a href="https://github.com/Leandecks/mathe-quiz"><img src="./img/projects/math.png" alt="A math quiz project" id="five"></a></div>
+                <div><a href="https://github.com/Leandecks/iva-calculator"><img src="./img/projects/iva.png" alt="A very old calculator for italian taxes" id="six"></a></div>
             </div>
-        </div>
-
-        <!--Hobbies-->
-
-        <div id="hobbies">
-            <h2>My hobbies</h2>
-            <p></p>
         </div>
 
         <!--Contact-->
@@ -121,6 +114,29 @@
         <div id="contact">
             <h2>Contact me</h2>
             <p>Wanna write with me?</p>
+
+            <form action="mailto:leandrogridelli@gmail.com" method="post" enctype="text/plain">
+                <div class="grid">
+                  <label for="firstname">
+                     Name
+                    <input type="text" id="firstname" name="firstname" placeholder="Name / Nickname" required>
+                  </label>
+              
+                  
+                  <label for="email">
+                    Mail
+                    <input type="email" id="email" name="email" placeholder="Email address" required>
+                  </label>
+                </div>
+                  <label for="textarea">
+                    Write
+                    <textarea name="textarea" id="textarea" cols="30" rows="8" placeholder="Write your message">
+
+                    </textarea>
+                  </label>
+                  <button type="submit">Send</button>
+              
+              </form>
         </div>
 
     </main>

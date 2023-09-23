@@ -1,3 +1,8 @@
+html,
+body {
+    transition: all 300ms ease-in-out;
+}
+
 .hero {
     background-image: url("../img/mountains.jpg");
     background-size: cover;
@@ -31,6 +36,38 @@ header hgroup h2 {
     color: #b5e1ff;
 }
 
-.grid {
+.grid#grid2 {
     margin-bottom: 3rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .grid img {
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .grid img {
+        margin-bottom: 15px;
+    }
+}
+
+.grid img:hover {
+    box-shadow: 0 0 0 0.3rem #b5e1ff;
+    transition: all 250ms ease-in-out;
+}
+
+a {
+    color: #3949ab;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #b5e1ff;
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
 }
