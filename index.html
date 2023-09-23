@@ -1,50 +1,134 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
+
+    <!--Metadata-->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#3949ab">
+
+    <!--Title-->
+
     <title>Leandecks</title>
+
+    <!--Logo Font-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap" rel="stylesheet">
+    <!--Styles-->
 
     <link rel="stylesheet" href="./node_modules/@picocss/pico/css/pico.min.css">
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--Script-->
+
     <script src="./js/script.js"></script>
 </head>
 <body>
     
     <!--Start-->
 
+    <!--HERO-->
+
 
     <div class="hero">
+
+        <!--Nav-->
+
         <nav class="container-fluid">
             <ul>
-                <li class="logo">Leandecks</li>
+                <li class="logo">
+                    <a href="#">Leandecks</a>
+                </li>
             </ul>
             <ul>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
             </ul>
         </nav>
+
+        <!--Header-->
 
         <header class="container">
             <hgroup>
                 <h1>Leandecks</h1>
-                <h2>FrontEnd Web Development</h2>
+                <h2>Hobby-coder, climber, big nerd</h2>
             </hgroup>
-            <p role="button">Let Your Website Shine</p>
+            <a href="#contact" role="button">Let's get in touch!</a>
         </header>
         
     </div>
 
+    <!--MAIN-->
+
+    <main class="container">
+
+        <!--About-->
+
+        <div id="about">
+            <h2>
+                About me
+            </h2>
+            <p>
+                Hey Guys! I'm Leandecks, a 15-yo guy from Italy/Germany.
+                I really like to code as a hobby in the Web Frontend and in Python. Check out <a href="#projects">my projs!</a>
+                I've also been doing bouldering (a category of sport climbing) for 5 years now.
+                I'm a big nerd as well who likes to learn languages (like swedish), solve hard sudokus and read. 
+            <h2 id="projects">My Projects</h2>
+            <p>
+                Here you see:
+                <ul>
+                    <li>Python scripts I wrote</li>
+                    <li>An old website for my uncle</li>
+                    <li>My current homepage</li>
+                    <li>My first website (very old)</li>
+                    <li>A math quiz project in german</li>
+                    <li>A very old website for calculating italian taxes lol</li>
+                </ul>
+            </p>
+            <div class="grid">
+                <div><img src="./img/projects/python.png" alt="My python scripts" id="one"></div>
+                <div><img src="./img/projects/am.png" alt="An old website for my uncle" id="two"></div>
+                <div><img src="./img/projects/leandecks.png" alt="My current website" id="three"></div>
+            </div>
+            <div class="grid">
+                <div><img src="./img/projects/yeah.png" alt="An old website of mine" id="four"></div>
+                <div><img src="./img/projects/math.png" alt="A math quiz project" id="five"></div>
+                <div><img src="./img/projects/iva.png" alt="A very old calculator for italian taxes" id="six"></div>
+            </div>
+        </div>
+
+        <!--Hobbies-->
+
+        <div id="hobbies">
+            <h2>My hobbies</h2>
+            <p></p>
+        </div>
+
+        <!--Contact-->
+
+        <div id="contact">
+            <h2>Contact me</h2>
+            <p>Wanna write with me?</p>
+        </div>
+
+    </main>
+
+    <!--Footer-->
+
+    <footer></footer>
+  
 
     <!--End-->
 

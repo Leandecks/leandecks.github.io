@@ -8,7 +8,9 @@ nav {
     margin-bottom: 3rem;
 }
 
-nav li {
+.hero nav ul li a,
+li.logo,
+.hero header a {
     color: var(--contrast);
 }
 
@@ -27,4 +29,8 @@ header hgroup {
 
 header hgroup h2 {
     color: #b5e1ff;
+}
+
+.grid {
+    margin-bottom: 3rem;
 }
