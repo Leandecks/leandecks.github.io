@@ -81,6 +81,12 @@ textarea {
     transition: all 250ms ease-in-out;
 }
 
+footer {
+    color: #edf0f3;
+    background-color: #24333e;
+    text-align: center;
+}
+
 html[data-theme="light"] {
     header hgroup h1,
     nav ul li a,
@@ -96,6 +102,10 @@ html[data-theme="light"] {
     .grid img:hover {
         box-shadow: 0 0 0 0.3rem #0099ff;
         transition: all 250ms ease-in-out;
+    }
+
+    footer p {
+        color: #edf0f3;
     }
 }
 

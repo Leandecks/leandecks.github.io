@@ -6,3 +6,4 @@ v0.1.2: Correct package.json and CHANGELOG.md
 v0.1.3: Projects section completed, texts updated   
 v0.1.4: Animations, contact section   
 v0.1.5: Add Light/Dark Mode switcher   
+v0.1.6: Add favicon, meta-tags, footer, license   
