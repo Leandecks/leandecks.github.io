@@ -1,6 +1,6 @@
 {
   "name": "leandecks.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1.1",
   "description": "Official Leandecks Website",
   "main": "js/script.js",
   "repository": {
