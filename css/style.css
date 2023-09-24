@@ -71,3 +71,37 @@ a:hover {
 textarea {
     resize: none;
 }
+
+#switcher {
+    color: #edf0f3;
+}
+
+#switcher:hover {
+    color: #24333e;
+    transition: all 250ms ease-in-out;
+}
+
+html[data-theme="light"] {
+    header hgroup h1,
+    nav ul li a,
+    #button1 {
+        color: #edf0f3;
+    }
+
+    a:hover {
+        color: #0099ff;
+        text-decoration: none;
+    }
+
+    .grid img:hover {
+        box-shadow: 0 0 0 0.3rem #0099ff;
+        transition: all 250ms ease-in-out;
+    }
+}
+
+html[data-theme="dark"] {
+    a:hover {
+        color: #b5e1ff;
+        text-decoration: none;
+    }
+}
