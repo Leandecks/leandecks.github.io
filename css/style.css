@@ -97,18 +97,24 @@ html[data-theme="light"] {
     #button1 {
         color: #edf0f3;
     }
+}
 
+html[data-theme="light"] {
     a:hover {
         color: #0099ff;
         text-decoration: none;
     }
+}
 
+html[data-theme="light"] {
     .grid img:hover {
         box-shadow: 0 0 0 0.3rem #0099ff;
         transition: all 250ms ease-in-out;
     }
+}
 
-    footer p {
+html[data-theme="light"] {
+    footer p#white {
         color: #edf0f3;
     }
 }
