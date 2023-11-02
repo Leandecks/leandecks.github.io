@@ -125,3 +125,7 @@ html[data-theme="dark"] {
         text-decoration: none;
     }
 }
+
+p#white {
+    margin: 0;
+}
