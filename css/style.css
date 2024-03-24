@@ -129,3 +129,10 @@ html[data-theme="dark"] {
 p#white {
     margin: 0;
 }
+
+.warn {
+    background-color: crimson;
+    padding: 1rem 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
