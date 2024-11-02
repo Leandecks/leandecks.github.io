@@ -1,15 +1,7 @@
-## CSS + JS Webpack Template
+## Personal Homepage v2
 
-Webpack template that handles css, js, images and fonts.
-Uses ESLint, Prettier and Babel.  
-Source code in `./src`, builds to `./dist`
-.
-
-### Commands
-
-- `npm run dev` - runs for development, opens local dev server and watches for changes.
-- `npm run build` - builds all resources from `./src` to `./dist`:
-- `npm run deploy` - pushes dist folder to new remote branch
+Rebuilt, using the newest PicoCSS version.   
+Showcase of some of my projects.
 
 ### Credits
 
