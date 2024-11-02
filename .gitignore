@@ -1,10 +1,4 @@
-# dirs
-
-/node_modules
-/dist
-
-# files
-
+node_modules
 package-lock.json
-colors.scss
-project-list.md
+dist
+.idea
