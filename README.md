@@ -1,5 +1,6 @@
 ## Personal Homepage v2
 
+Simple homepage.  
 Rebuilt, using the newest PicoCSS version.   
 Showcase of some of my projects.
 
